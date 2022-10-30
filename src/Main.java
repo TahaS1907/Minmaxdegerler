@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int max=0;int min=1000;
-        int piece,number,other=0;
+        int piece,number;
         System.out.println("Please enter the amount of numbers:");
         piece= scanner.nextInt();
         for(int i=1;i<=piece;i++){
